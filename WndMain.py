@@ -11,7 +11,7 @@ class WndMain():
     font-size: 25px; \
     background-color: rgba(0, 0, 0, 0.1); \
     ")
-    
+
   #функция wnd_main.mouseMoveEvent
   def mouse_on_wnd_main (self, event):
     self.label_close_wnd.setStyleSheet(" \
@@ -33,7 +33,7 @@ class WndMain():
     self.wnd_main.setStyleSheet(" \
     QMainWindow { \
     background-color: black; \
-    background-image: url(./193342.jpg); \
+    background-image: url(./wnd_main_bg.jpg); \
     }") 
     self.wnd_main.setMouseTracking(True)
     self.wnd_main.mouseMoveEvent = self.mouse_on_wnd_main
